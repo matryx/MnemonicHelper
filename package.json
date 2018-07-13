@@ -1,0 +1,31 @@
+{
+  "name": "mnemonichelper",
+  "version": "1.0.0",
+  "description": "Provides access to addresses and private keys given an HD wallet mnemonic and an index",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matryx/MnemonicHelper.git"
+  },
+  "keywords": [
+    "mnemonic",
+    "ethereum",
+    "wallet",
+    "hierarchical",
+    "deterministic"
+  ],
+  "author": "Max Howard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matryx/MnemonicHelper/issues"
+  },
+  "homepage": "https://github.com/matryx/MnemonicHelper#readme",
+  "dependencies": {
+    "bip39": "^2.5.0",
+    "ethereumjs-util": "^5.2.0",
+    "ethereumjs-wallet": "^0.6.0"
+  }
+}
